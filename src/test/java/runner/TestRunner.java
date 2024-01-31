@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features=
 	"C:\\Users\\mangu\\eclipse-workspace\\ATE-Phase2-Cucumber-ExtentReports-Jenkins\\src\\test\\java\\features\\rediffRegister.feature",
-		glue = {"steps"},  // packagename where the steps are
+		glue = {"steps"},  // package name where the steps are
 		plugin= {"pretty",
 				"html:target/cucumberreport.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
